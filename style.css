@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: yellow;
+}
+.head{
+    padding: 20px 0px 20px 50px;
+}
+.bttn{
+    border: none;
+    font-size: 20px;
+    background-color: white;
+   
+}
+.btn{
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+     background-color: yellow;
+     border-radius: 50px;
+}
+.btn :hover{
+    background-color: yellow;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 40px;
+    color: white;
+}
+.notee{
+  /* float: left; */
+
+ margin-left: 30px;    
+   
+ /* width: 280px;
+ height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll; */
+}
+.note{
+  float: left;
+
+ margin-left: 30px;    
+   
+ /* width: 280px;
+ height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll; */
+}
+.note :hover{
+    /* background-color: yellow; */
+    /* width: 280px;
+    margin-left: 30px;    
+    height: 200px;
+  
+    overflow-x: hidden;
+    overflow-y: scroll; */
+}
+.operation{
+/* float: right; */
+display: flex;
+justify-content: flex-end;
+width: 250px;
+}
+.main{
+    width: 250px;
+    height: 170px;
+    border: 1px solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+textarea{
+    width: 250px;
+    height: 170px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.edit{
+    margin: 2px;
+    padding: 5px;
+background-color: green;
+font-size: 20px;
+color: white;
+border: none;
+border-radius: 50%;
+}
+.edit :hover{
+background-color: rgb(255, 255, 255);
+
+color: green;
+
+}
+.trash{
+    margin: 2px;
+    padding: 5px;
+background-color: red;
+font-size: 20px;
+color: white;
+border: none;
+border-radius: 50%;
+}
+.trash :hover{
+background-color: rgb(255, 255, 255);
+
+color: red;
+
+}
+.hidden{
+    display: none;
+}
